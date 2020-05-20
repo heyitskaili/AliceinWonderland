@@ -439,6 +439,20 @@ footer {
 /* =============
     section 3
 ============= */
+#section3 {
+  background-color: #000; }
+  #section3 h2 {
+    text-align: center;
+    font-size: 45px;
+    color: #fff; }
+  #section3 h1 {
+    color: #fff; }
+  #section3 .wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    text-align: center; }
+
 /* =============
     section 4
 ============= */
