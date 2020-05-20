@@ -1,3 +1,25 @@
 /* =============
     section 8
 ============= */
+
+
+
+#section8{
+    background-color: $black;
+#cat{
+    background-image: url("../img/section8/catt.png");
+    background-position: 50% 85%;
+    height: 500px;
+}
+
+#quote{
+    background-image: url("../img/section8/madquote.png");
+    background-position: top;
+    height: 445px;
+}
+
+h2{
+    color: $white;
+}
+  
+}

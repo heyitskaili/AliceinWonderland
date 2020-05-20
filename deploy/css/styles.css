@@ -347,6 +347,16 @@ textarea {
 /* =============
     Footer
 ============= */
+#footer {
+  background-color: #000;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px; }
+  #footer h5 {
+    text-align: center;
+    color: #fff; }
+
 /* =============
     section 1
 ============= */
@@ -383,6 +393,24 @@ textarea {
 /* =============
     section 8
 ============= */
+#section8 {
+  background-color: #000; }
+  #section8 #cat {
+    background-image: url("../img/section8/catt.png");
+    background-position: 50% 85%;
+    height: 500px; }
+  #section8 #quote {
+    background-image: url("../img/section8/madquote.png");
+    background-position: top;
+    height: 445px; }
+  #section8 h2 {
+    color: #fff; }
+
 /* =============
     section 9
 ============= */
+#section9 #tea {
+  background-image: url("../img/section9/teaparty.png");
+  background-position: top;
+  background-size: 100%;
+  height: 160px; }
