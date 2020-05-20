@@ -470,6 +470,17 @@ footer {
 /* =============
     section 5
 ============= */
+#section5 {
+  background-color: #C8A2C8;
+  padding-top: 20px; }
+  #section5 h1 {
+    text-align: center;
+    font-size: 45px;
+    color: #fff; }
+  #section5 p {
+    text-align: center;
+    font-size: 30px; }
+
 /* =============
     section 6
 ============= */
