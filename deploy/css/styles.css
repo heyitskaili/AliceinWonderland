@@ -352,9 +352,16 @@ textarea {
 ============= */
 #section1 {
   background-image: url("../img/section1/hero.jpg");
-  background-position: center;
+  background-position: 50% 90%;
   height: 800px; }
-
+  @media (min-width: 768px) {
+    #section1 {
+      background-position: 20% 50%;
+      height: 950px; } }
+  @media (min-width: 992px) {
+    #section1 {
+      background-position: center;
+      height: 950px; } }
 /* =============
     section 2
 ============= */
