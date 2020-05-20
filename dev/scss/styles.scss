@@ -1,0 +1,28 @@
+@charset 'utf-8';
+
+// Helpers Styles
+@import "helpers/_mixins";
+@import "helpers/_variables";
+
+// Base Styles
+@import "base/_normalize";
+@import "base/_base";
+@import "base/_typography";
+
+// Components Styles
+@import "components/_buttons";
+@import "components/_forms";
+@import "components/_navigation";
+
+// Layout Styles
+@import "layout/_header";
+@import "layout/_footer";
+
+// Sections Styles
+@import "sections/section1";
+@import "sections/section2";
+@import "sections/section3";
+@import "sections/section4";
+@import "sections/section5";
+
+    
