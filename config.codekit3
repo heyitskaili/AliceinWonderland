@@ -19,6 +19,446 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/deploy/img/section1/Hero.png": {
+		"ft": 32768,
+		"iS": 1412239,
+		"oA": 0,
+		"oAP": "/deploy/img/section1/Hero.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/section2/butter.png": {
+		"ft": 32768,
+		"iS": 6678,
+		"oA": 0,
+		"oAP": "/deploy/img/section2/butter.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/section2/cat.png": {
+		"ft": 32768,
+		"iS": 48722,
+		"oA": 0,
+		"oAP": "/deploy/img/section2/cat.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/section2/flowerbottomleft.png": {
+		"ft": 32768,
+		"iS": 149366,
+		"oA": 0,
+		"oAP": "/deploy/img/section2/flowerbottomleft.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/section2/flowerbottomright.png": {
+		"ft": 32768,
+		"iS": 135367,
+		"oA": 0,
+		"oAP": "/deploy/img/section2/flowerbottomright.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/section2/flowertopleft.png": {
+		"ft": 32768,
+		"iS": 67900,
+		"oA": 0,
+		"oAP": "/deploy/img/section2/flowertopleft.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/section2/flowertopright.png": {
+		"ft": 32768,
+		"iS": 71629,
+		"oA": 0,
+		"oAP": "/deploy/img/section2/flowertopright.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/section2/sitting alice.png": {
+		"ft": 32768,
+		"iS": 25989,
+		"oA": 0,
+		"oAP": "/deploy/img/section2/sitting alice.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/section3/cards/cardbottomleft.png": {
+		"ft": 32768,
+		"iS": 15172,
+		"oA": 0,
+		"oAP": "/deploy/img/section3/cards/cardbottomleft.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/section3/cards/cardbottomright.png": {
+		"ft": 32768,
+		"iS": 14709,
+		"oA": 0,
+		"oAP": "/deploy/img/section3/cards/cardbottomright.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/section3/cards/cardtopleft.png": {
+		"ft": 32768,
+		"iS": 14080,
+		"oA": 0,
+		"oAP": "/deploy/img/section3/cards/cardtopleft.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/section3/cards/cardtopright.png": {
+		"ft": 32768,
+		"iS": 19934,
+		"oA": 0,
+		"oAP": "/deploy/img/section3/cards/cardtopright.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/section3/guest/alice.png": {
+		"ft": 32768,
+		"iS": 60286,
+		"oA": 0,
+		"oAP": "/deploy/img/section3/guest/alice.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/section3/guest/bug.png": {
+		"ft": 32768,
+		"iS": 58240,
+		"oA": 0,
+		"oAP": "/deploy/img/section3/guest/bug.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/section3/guest/cat.png": {
+		"ft": 32768,
+		"iS": 54907,
+		"oA": 0,
+		"oAP": "/deploy/img/section3/guest/cat.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/section3/guest/hare.png": {
+		"ft": 32768,
+		"iS": 67569,
+		"oA": 0,
+		"oAP": "/deploy/img/section3/guest/hare.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/section3/guest/madhatter.png": {
+		"ft": 32768,
+		"iS": 67852,
+		"oA": 0,
+		"oAP": "/deploy/img/section3/guest/madhatter.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/section3/guest/mouse.png": {
+		"ft": 32768,
+		"iS": 52990,
+		"oA": 0,
+		"oAP": "/deploy/img/section3/guest/mouse.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/section3/guest/rabbit.png": {
+		"ft": 32768,
+		"iS": 62305,
+		"oA": 0,
+		"oAP": "/deploy/img/section3/guest/rabbit.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/section3/guest/redqueen.png": {
+		"ft": 32768,
+		"iS": 61878,
+		"oA": 0,
+		"oAP": "/deploy/img/section3/guest/redqueen.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/section3/guest/whitequeen.png": {
+		"ft": 32768,
+		"iS": 59777,
+		"oA": 0,
+		"oAP": "/deploy/img/section3/guest/whitequeen.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/section4/dots.png": {
+		"ft": 32768,
+		"iS": 1099,
+		"oA": 0,
+		"oAP": "/deploy/img/section4/dots.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/section4/leftarrow.png": {
+		"ft": 32768,
+		"iS": 703,
+		"oA": 0,
+		"oAP": "/deploy/img/section4/leftarrow.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/section4/rightarrow.png": {
+		"ft": 32768,
+		"iS": 684,
+		"oA": 0,
+		"oAP": "/deploy/img/section4/rightarrow.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/section4/tea1.png": {
+		"ft": 32768,
+		"iS": 89877,
+		"oA": 0,
+		"oAP": "/deploy/img/section4/tea1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/section4/tea2.png": {
+		"ft": 32768,
+		"iS": 235253,
+		"oA": 0,
+		"oAP": "/deploy/img/section4/tea2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/section4/tea3.png": {
+		"ft": 32768,
+		"iS": 86686,
+		"oA": 0,
+		"oAP": "/deploy/img/section4/tea3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/section5/alices.png": {
+		"ft": 32768,
+		"iS": 40713,
+		"oA": 0,
+		"oAP": "/deploy/img/section5/alices.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/section5/cats.png": {
+		"ft": 32768,
+		"iS": 21523,
+		"oA": 0,
+		"oAP": "/deploy/img/section5/cats.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/section5/path.png": {
+		"ft": 32768,
+		"iS": 89723,
+		"oA": 0,
+		"oAP": "/deploy/img/section5/path.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/section5/rabbits.png": {
+		"ft": 32768,
+		"iS": 31494,
+		"oA": 0,
+		"oAP": "/deploy/img/section5/rabbits.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/section5/redqueens.png": {
+		"ft": 32768,
+		"iS": 57764,
+		"oA": 0,
+		"oAP": "/deploy/img/section5/redqueens.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/section5/whiterabbit.png": {
+		"ft": 32768,
+		"iS": 52326,
+		"oA": 0,
+		"oAP": "/deploy/img/section5/whiterabbit.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/section6/path3.png": {
+		"ft": 32768,
+		"iS": 11712,
+		"oA": 0,
+		"oAP": "/deploy/img/section6/path3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/section8/alicee.png": {
+		"ft": 32768,
+		"iS": 10898,
+		"oA": 0,
+		"oAP": "/deploy/img/section8/alicee.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/section8/butterr.png": {
+		"ft": 32768,
+		"iS": 2686,
+		"oA": 0,
+		"oAP": "/deploy/img/section8/butterr.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/section8/catt.png": {
+		"ft": 32768,
+		"iS": 144235,
+		"oA": 0,
+		"oAP": "/deploy/img/section8/catt.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/section8/madquote.png": {
+		"ft": 32768,
+		"iS": 79762,
+		"oA": 0,
+		"oAP": "/deploy/img/section8/madquote.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/section9/cat.png": {
+		"ft": 32768,
+		"iS": 10522,
+		"oA": 0,
+		"oAP": "/deploy/img/section9/cat.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/section9/teaparty.png": {
+		"ft": 32768,
+		"iS": 59885,
+		"oA": 0,
+		"oAP": "/deploy/img/section9/teaparty.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/deploy/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -38,12 +478,12 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/design/structure-tags.sketch": {
+	"/design/KailiChenFinalProjectSolo.sketch": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/design/structure-tags.sketch",
+		"oAP": "/design/KailiChenFinalProjectSolo.sketch",
 		"oF": 0
 		},
 	"/dev/footer.kit": {
@@ -268,6 +708,58 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/dev/scss/sections/_section6.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_section6.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_section7.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_section7.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_section8.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_section8.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_section9.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_section9.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/dev/scss/styles.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -320,6 +812,38 @@
 		"oA": 1,
 		"oAP": "/dev/section5.html",
 		"oF": 1
+		},
+	"/dev/section6.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/section6.html",
+		"oF": 1
+		},
+	"/dev/section7.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/section7.html",
+		"oF": 1
+		},
+	"/dev/section8.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/section8.html",
+		"oF": 1
+		},
+	"/dev/section9.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/section9.html",
+		"oF": 1
 		}
 	},
 "hooks": [
@@ -328,7 +852,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 608749310.69441402,
-	"displayValue": "InClassTest",
+	"displayValue": "AliceinWonderland",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-payne",
 	"iconImageWasSetByUser": 0
