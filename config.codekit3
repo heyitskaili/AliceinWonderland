@@ -19,6 +19,17 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/deploy/img/section1/hero.jpg": {
+		"ft": 16384,
+		"iS": 1509162,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section1/hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/section1/Hero.png": {
 		"ft": 32768,
 		"iS": 1412239,
