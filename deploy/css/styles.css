@@ -541,15 +541,34 @@ footer {
 ============= */
 #section5 {
   background-color: #C8A2C8;
-  padding-top: 20px; }
+  padding-top: 20px;
+  padding-bottom: 100%;
+  background-image: url("../img/section5/path3.png"), url("../img/section3/cards/cardbottomright.png"), url("../img/section3/cards/cardtopleft.png"), url("../img/section3/cards/cardtopright.png");
+  background-repeat: no-repeat;
+  background-position: 40% 75%, right bottom, left top, right top;
+  background-size: 200%, 15%; }
   #section5 h1 {
     text-align: center;
     font-size: 45px;
     color: #fff; }
-  #section5 p {
+  #section5 h3 {
     text-align: center;
-    font-size: 30px; }
-
+    position: absolute;
+    bottom: 200px;
+    font-size: 45px;
+    color: #fff; }
+  @media (min-width: 768px) {
+    #section5 {
+      background-image: url("../img/section5/path1.png"), url("../img/section3/cards/cardbottomright.png"), url("../img/section3/cards/cardtopleft.png"), url("../img/section3/cards/cardtopright.png");
+      background-repeat: no-repeat;
+      background-position: 50% 20%, right bottom, left top, right top;
+      background-size: 110%, 15%; } }
+  @media (min-width: 992px) {
+    #section5 {
+      background-image: url("../img/section5/path1.png"), url("../img/section5/whiterabbit.png"), url("../img/section5/redqueens.png"), url("../img/section5/cats.png"), url("../img/section5/rabbits.png"), url("../img/section5/path5.png"), url("../img/section5/rabbits.png");
+      background-repeat: no-repeat;
+      background-position: 50% 11%,  center,  center,  10% 70%, center, bottom, center;
+      background-size: 80%,  25%, 25%, 20%, 25%, 100%, 25%; } }
 /* =============
     section 6
 ============= */

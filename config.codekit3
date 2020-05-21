@@ -351,9 +351,42 @@
 		},
 	"/deploy/img/section5/path.png": {
 		"ft": 32768,
-		"iS": 89723,
+		"iS": 315115,
 		"oA": 0,
 		"oAP": "/deploy/img/section5/path.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/section5/path1.png": {
+		"ft": 32768,
+		"iS": 391887,
+		"oA": 0,
+		"oAP": "/deploy/img/section5/path1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/section5/path3.png": {
+		"ft": 32768,
+		"iS": 212595,
+		"oA": 0,
+		"oAP": "/deploy/img/section5/path3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/section5/path5.png": {
+		"ft": 32768,
+		"iS": 11712,
+		"oA": 0,
+		"oAP": "/deploy/img/section5/path5.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
