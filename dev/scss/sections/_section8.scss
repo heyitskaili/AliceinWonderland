@@ -6,11 +6,17 @@
 
 #section8{
     background-color: $black;
+
 #cat{
     background-image: url("../img/section8/catt.png");
     background-position: 50% 85%;
     background-repeat: no-repeat;
     height: 500px;
+
+    @include lg{
+        background-position: left;}
+        
+    }
 
     grid-area: cat;
 }
@@ -21,6 +27,10 @@
     background-repeat: no-repeat;
     height: 445px;
     grid-area: quote;
+
+    @include lg{
+        background-position: top right;
+    }
 }
 
 h2{
@@ -34,17 +44,35 @@ h2{
         display: inline-block;
         font-size: 16px;
         cursor: pointer;
-}
-
-#up{
-@include md{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    
-    
-}
-    
 
 }
+
+@include lg{
+    background-position: left;}
+      
+    h2 {
+            line-height: 10px;
+            color: white;
+            background-color: $purple;
+            border-radius: 100px;
+            padding: 15px 30px;
+            text-align: center;
+            margin: 40px 40px;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+            position: relative;
+            left: 43%;
+        }
+
+// #up{
+//     @include md{
+//         display: grid;
+//         grid-template-columns: 50% 50%;
+        
+        
+//     }
+        
+    
+//     }
   
-}

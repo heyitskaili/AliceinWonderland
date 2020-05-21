@@ -16,43 +16,38 @@
     }
 
 
-    h3{
-        text-align: center;
-        position: absolute;
-        bottom: 200px;
-        font-size: 45px;
-        color:$white;
-        
-    }
+    
 
-    padding-bottom: 100%;
+    padding-bottom: 180%;
 
     background-image: url('../img/section5/path3.png'),
-    url('../img/section3/cards/cardbottomright.png'),
-    url('../img/section3/cards/cardtopleft.png'),
-    url('../img/section3/cards/cardtopright.png');
+    url('../img/section5/path5.png'),
+    url('../img/section5/cats.png');
     background-repeat: no-repeat;
-    background-position: 40% 75%,
-    right bottom,
-    left top,
-    right top;
+    background-position: 40% 20%,
+    bottom,
+    10% 85%;
     background-size: 200%,
-    15%;
+    100%,
+    25%;
+    
 
     @include md {
 
-
+        padding-bottom: 130%;
         background-image: url('../img/section5/path1.png'), 
-        url('../img/section3/cards/cardbottomright.png'), 
-        url('../img/section3/cards/cardtopleft.png'), 
-        url('../img/section3/cards/cardtopright.png');
+        url('../img/section5/path5.png'),
+        url('../img/section5/cats.png');
         background-repeat: no-repeat;
-        background-position: 50% 20%, right bottom, left top, right top;
-        background-size: 110%, 15%;
+        background-position: 50% 20%, bottom, 3% 80%;
+        background-size: 110%, 
+        100%,
+        25%;
     }
 
 
     @include lg {
+        padding-bottom: 100%;
 
         background-image: url('../img/section5/path1.png'), 
         url('../img/section5/whiterabbit.png'), 

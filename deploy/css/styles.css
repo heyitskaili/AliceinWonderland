@@ -542,29 +542,25 @@ footer {
 #section5 {
   background-color: #C8A2C8;
   padding-top: 20px;
-  padding-bottom: 100%;
-  background-image: url("../img/section5/path3.png"), url("../img/section3/cards/cardbottomright.png"), url("../img/section3/cards/cardtopleft.png"), url("../img/section3/cards/cardtopright.png");
+  padding-bottom: 180%;
+  background-image: url("../img/section5/path3.png"), url("../img/section5/path5.png"), url("../img/section5/cats.png");
   background-repeat: no-repeat;
-  background-position: 40% 75%, right bottom, left top, right top;
-  background-size: 200%, 15%; }
+  background-position: 40% 20%, bottom, 10% 85%;
+  background-size: 200%, 100%, 25%; }
   #section5 h1 {
     text-align: center;
     font-size: 45px;
     color: #fff; }
-  #section5 h3 {
-    text-align: center;
-    position: absolute;
-    bottom: 200px;
-    font-size: 45px;
-    color: #fff; }
   @media (min-width: 768px) {
     #section5 {
-      background-image: url("../img/section5/path1.png"), url("../img/section3/cards/cardbottomright.png"), url("../img/section3/cards/cardtopleft.png"), url("../img/section3/cards/cardtopright.png");
+      padding-bottom: 130%;
+      background-image: url("../img/section5/path1.png"), url("../img/section5/path5.png"), url("../img/section5/cats.png");
       background-repeat: no-repeat;
-      background-position: 50% 20%, right bottom, left top, right top;
-      background-size: 110%, 15%; } }
+      background-position: 50% 20%, bottom, 3% 80%;
+      background-size: 110%,  100%, 25%; } }
   @media (min-width: 992px) {
     #section5 {
+      padding-bottom: 100%;
       background-image: url("../img/section5/path1.png"), url("../img/section5/whiterabbit.png"), url("../img/section5/redqueens.png"), url("../img/section5/cats.png"), url("../img/section5/rabbits.png"), url("../img/section5/path5.png"), url("../img/section5/rabbits.png");
       background-repeat: no-repeat;
       background-position: 50% 11%,  center,  center,  10% 70%, center, bottom, center;
@@ -573,7 +569,7 @@ footer {
     section 6
 ============= */
 #section6 {
-  background-color: #C8A2C8;
+  background-color: #000;
   padding-top: 20px; }
   #section6 h3 {
     text-align: center;
@@ -587,34 +583,54 @@ footer {
     section 8
 ============= */
 #section8 {
-  background-color: #000; }
+  background-color: #000;
+  grid-area: cat; }
   #section8 #cat {
     background-image: url("../img/section8/catt.png");
     background-position: 50% 85%;
     background-repeat: no-repeat;
-    height: 500px;
-    grid-area: cat; }
-  #section8 #quote {
-    background-image: url("../img/section8/madquote.png");
-    background-position: top;
-    background-repeat: no-repeat;
-    height: 445px;
-    grid-area: quote; }
-  #section8 h2 {
-    line-height: 10px;
-    color: white;
-    background-color: #C8A2C8;
-    border-radius: 100px;
-    padding: 15px 30px;
-    text-align: center;
-    margin: 40px 140px;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer; }
-  @media (min-width: 768px) {
-    #section8 #up {
-      display: grid;
-      grid-template-columns: 50% 50%; } }
+    height: 500px; }
+    @media (min-width: 992px) {
+      #section8 #cat {
+        background-position: left; } }
+#quote {
+  background-image: url("../img/section8/madquote.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 445px;
+  grid-area: quote; }
+  @media (min-width: 992px) {
+    #quote {
+      background-position: top right; } }
+h2 {
+  line-height: 10px;
+  color: white;
+  background-color: #C8A2C8;
+  border-radius: 100px;
+  padding: 15px 30px;
+  text-align: center;
+  margin: 40px 140px;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer; }
+
+@media (min-width: 992px) {
+  background-position: left; }
+
+h2 {
+  line-height: 10px;
+  color: white;
+  background-color: #C8A2C8;
+  border-radius: 100px;
+  padding: 15px 30px;
+  text-align: center;
+  margin: 40px 40px;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  position: relative;
+  left: 43%; }
+
 /* =============
     section 9
 ============= */
