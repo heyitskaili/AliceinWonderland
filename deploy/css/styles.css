@@ -494,7 +494,11 @@ footer {
     section 3
 ============= */
 #section3 {
-  background-color: #000; }
+  background-color: #000;
+  background-image: url("../img/section3/cards/cardbottomleft.png"), url("../img/section3/cards/cardbottomright.png"), url("../img/section3/cards/cardtopleft.png"), url("../img/section3/cards/cardtopright.png");
+  background-repeat: no-repeat;
+  background-position: left bottom, right bottom, left top, right top;
+  background-size: 30%, 40%, 40%, 30%; }
   #section3 h2 {
     text-align: center;
     font-size: 45px;
@@ -506,7 +510,18 @@ footer {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
     text-align: center; }
-
+  @media (min-width: 768px) {
+    #section3 {
+      background-image: url("../img/section3/cards/cardbottomleft.png"), url("../img/section3/cards/cardbottomright.png"), url("../img/section3/cards/cardtopleft.png"), url("../img/section3/cards/cardtopright.png");
+      background-repeat: no-repeat;
+      background-position: left bottom, right bottom, left top, right top;
+      background-size: 30%, 30%, 30%, 30%; } }
+  @media (min-width: 992px) {
+    #section3 {
+      background-image: url("../img/section3/cards/cardbottomleft.png"), url("../img/section3/cards/cardbottomright.png"), url("../img/section3/cards/cardtopleft.png"), url("../img/section3/cards/cardtopright.png");
+      background-repeat: no-repeat;
+      background-position: left bottom, right bottom, left top, right top;
+      background-size: 17%; } }
 /* =============
     section 4
 ============= */

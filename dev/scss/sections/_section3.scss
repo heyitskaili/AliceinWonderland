@@ -21,14 +21,37 @@ h1{
 .wrapper{
 
     
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 10px;
-        text-align: center;
-
-    
-
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    text-align: center;
 }
+
+
+background-image: url('../img/section3/cards/cardbottomleft.png'), url('../img/section3/cards/cardbottomright.png'), url('../img/section3/cards/cardtopleft.png'), url('../img/section3/cards/cardtopright.png');
+        background-repeat: no-repeat;
+        background-position: left bottom, right bottom, left top, right top;
+        background-size: 30%, 40%, 40%, 30%;
+
+
+
+    @include md{
+
+
+        background-image: url('../img/section3/cards/cardbottomleft.png'), url('../img/section3/cards/cardbottomright.png'), url('../img/section3/cards/cardtopleft.png'), url('../img/section3/cards/cardtopright.png');
+        background-repeat: no-repeat;
+        background-position: left bottom, right bottom, left top, right top;
+        background-size: 30%, 30%, 30%, 30%;
+
+    }
+
+
+    @include lg{
+        background-image: url('../img/section3/cards/cardbottomleft.png'), url('../img/section3/cards/cardbottomright.png'), url('../img/section3/cards/cardtopleft.png'), url('../img/section3/cards/cardtopright.png');
+        background-repeat: no-repeat;
+        background-position: left bottom, right bottom, left top, right top;
+        background-size: 17%;
+    }
 
 
 }
