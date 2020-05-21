@@ -349,6 +349,14 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/deploy/img/section5/eating.gif": {
+		"ft": 4194304,
+		"iS": 352076,
+		"oA": 0,
+		"oAP": "/deploy/img/section5/eating.gif",
+		"oF": 0,
+		"opt": 0
+		},
 	"/deploy/img/section5/path.png": {
 		"ft": 32768,
 		"iS": 315115,

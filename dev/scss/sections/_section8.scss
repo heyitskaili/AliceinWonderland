@@ -33,37 +33,12 @@
     }
 }
 
-h2{
-    line-height: 10px;
-        color: white;
-        background-color: $purple;
-        border-radius: 100px;
-        padding: 15px 30px;
-        text-align: center;
-        margin: 40px 140px;
-        display: inline-block;
-        font-size: 16px;
-        cursor: pointer;
 
-}
+
 
 @include lg{
     background-position: left;}
       
-    h2 {
-            line-height: 10px;
-            color: white;
-            background-color: $purple;
-            border-radius: 100px;
-            padding: 15px 30px;
-            text-align: center;
-            margin: 40px 40px;
-            display: inline-block;
-            font-size: 16px;
-            cursor: pointer;
-            position: relative;
-            left: 43%;
-        }
 
 // #up{
 //     @include md{
