@@ -9,18 +9,42 @@
 #cat{
     background-image: url("../img/section8/catt.png");
     background-position: 50% 85%;
+    background-repeat: no-repeat;
     height: 500px;
+
+    grid-area: cat;
 }
 
 #quote{
     background-image: url("../img/section8/madquote.png");
     background-position: top;
+    background-repeat: no-repeat;
     height: 445px;
+    grid-area: quote;
 }
 
 h2{
-    text-align: center;
-    color: $white;
+    line-height: 10px;
+        color: white;
+        background-color: $purple;
+        border-radius: 100px;
+        padding: 15px 30px;
+        text-align: center;
+        margin: 40px 140px;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+}
+
+#up{
+@include md{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+    
+}
+    
+
 }
   
 }

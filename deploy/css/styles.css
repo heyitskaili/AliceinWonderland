@@ -419,23 +419,77 @@ footer {
 ============= */
 #section2 {
   background-color: #000;
-  padding-top: 50px; }
+  padding-top: 50px;
+  background-image: url("../img/section2/cat.png"), url("../img/section2/flowerbottomleft.png"), url("../img/section2/flowerbottomright.png");
+  background-repeat: no-repeat;
+  background-position: 25% 10%, -10%, 110%;
+  background-size: 35%, 55%, 55%; }
   #section2 h1 {
     text-align: center;
-    font-size: 70px;
+    font-size: 65px;
     line-height: 40px;
     color: #fff; }
   #section2 h2 {
+    line-height: 10px;
+    color: white;
+    background-color: #FFB61E;
+    border-radius: 100px;
+    padding: 15px 30px;
     text-align: center;
-    font-size: 50px;
-    line-height: 200px;
-    color: white; }
+    margin: 20px 20px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    left: 35%; }
   #section2 h4 {
     text-align: center;
-    font-size: 32px;
+    font-size: 25px;
     line-height: 0px;
     color: white; }
-
+  @media (min-width: 768px) {
+    #section2 {
+      background-image: url("../img/section2/cat.png"), url("../img/section2/flowerbottomleft.png"), url("../img/section2/flowerbottomright.png");
+      background-repeat: no-repeat;
+      background-position: 50% 9%, 0%, 100%;
+      background-size: 20%, 30%, 30%; }
+      #section2 h2 {
+        line-height: 10px;
+        color: white;
+        background-color: #FFB61E;
+        border-radius: 100px;
+        padding: 15px 30px;
+        text-align: center;
+        margin: 20px 20px;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        position: relative;
+        left: 40%; } }
+  @media (min-width: 992px) {
+    #section2 {
+      background-image: url("../img/section2/cat.png"), url("../img/section2/flowerbottomleft.png"), url("../img/section2/flowerbottomright.png");
+      background-repeat: no-repeat;
+      background-position: 50% 9%, 25%, 75%;
+      background-size: 12%, 15%, 15%; }
+      #section2 h1 {
+        text-align: center;
+        font-size: 70px;
+        line-height: 40px;
+        color: #fff; }
+      #section2 h2 {
+        line-height: 10px;
+        color: white;
+        background-color: #FFB61E;
+        border-radius: 100px;
+        padding: 15px 30px;
+        text-align: center;
+        margin: 40px 40px;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        position: relative;
+        left: 43%; } }
 /* =============
     section 3
 ============= */
@@ -503,15 +557,30 @@ footer {
   #section8 #cat {
     background-image: url("../img/section8/catt.png");
     background-position: 50% 85%;
-    height: 500px; }
+    background-repeat: no-repeat;
+    height: 500px;
+    grid-area: cat; }
   #section8 #quote {
     background-image: url("../img/section8/madquote.png");
     background-position: top;
-    height: 445px; }
+    background-repeat: no-repeat;
+    height: 445px;
+    grid-area: quote; }
   #section8 h2 {
+    line-height: 10px;
+    color: white;
+    background-color: #C8A2C8;
+    border-radius: 100px;
+    padding: 15px 30px;
     text-align: center;
-    color: #fff; }
-
+    margin: 40px 140px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer; }
+  @media (min-width: 768px) {
+    #section8 #up {
+      display: grid;
+      grid-template-columns: 50% 50%; } }
 /* =============
     section 9
 ============= */
