@@ -505,36 +505,112 @@ footer {
     color: #fff; }
   #section3 h1 {
     color: #fff; }
+  #section3 .alice {
+    grid-area: alice; }
+  #section3 #cat {
+    grid-area: cat; }
+  #section3 #bug {
+    grid-area: bug; }
+  #section3 #hare {
+    grid-area: hare; }
+  #section3 #madhatter {
+    grid-area: madhatter; }
+  #section3 #mouse {
+    grid-area: mouse; }
+  #section3 #red {
+    grid-area: redqueen; }
+  #section3 #white {
+    grid-area: whitequeen; }
+  #section3 #rabbit {
+    grid-area: rabbit; }
   #section3 .wrapper {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: " . alice . " ". . madhatter" " . cat ." ". . bug" ". whitequeen . " ". . redqueen" ". rabbit ." ". . mouse" ". hare .";
     text-align: center; }
   @media (min-width: 768px) {
     #section3 {
       background-image: url("../img/section3/cards/cardbottomleft.png"), url("../img/section3/cards/cardbottomright.png"), url("../img/section3/cards/cardtopleft.png"), url("../img/section3/cards/cardtopright.png");
       background-repeat: no-repeat;
       background-position: left bottom, right bottom, left top, right top;
-      background-size: 30%, 30%, 30%, 30%; } }
+      background-size: 30%, 30%, 30%, 30%; }
+      #section3 .wrapper {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-areas: " . . alice . . " " . cat . madhatter ." ". whitequeen . redqueen ." ". bug . rabbit . " ". hare . mouse .";
+        text-align: center; } }
   @media (min-width: 992px) {
     #section3 {
       background-image: url("../img/section3/cards/cardbottomleft.png"), url("../img/section3/cards/cardbottomright.png"), url("../img/section3/cards/cardtopleft.png"), url("../img/section3/cards/cardtopright.png");
       background-repeat: no-repeat;
       background-position: left bottom, right bottom, left top, right top;
-      background-size: 17%; } }
+      background-size: 17%; }
+      #section3 .wrapper {
+        display: grid;
+        grid-template-areas: repeat(8, 1fr); } }
 /* =============
     section 4
 ============= */
 #section4 {
   background-color: #000;
   padding-top: 10px; }
+  #section4 img {
+    width: 100%; }
   #section4 h1 {
     text-align: center;
     font-size: 45px;
     color: #fff; }
+  #section4 .tea {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas: "la tea1 tea2 tea3 ra"  ". . button . .";
+    column-gap: 10px; }
+  #section4 #tea1 {
+    grid-area: tea1; }
+  #section4 #tea2 {
+    grid-area: tea2; }
+  #section4 #tea3 {
+    grid-area: tea3; }
+  #section4 #la {
+    grid-area: la;
+    width: 10%;
+    padding-top: 28%;
+    padding-left: 70%; }
+  #section4 #ra {
+    grid-area: ra;
+    width: 10%;
+    padding-top: 28%;
+    padding-left: 20%; }
+  #section4 #button {
+    grid-area: button;
+    width: 15%;
+    padding-left: 40%; }
   #section4 h2 {
-    color: #fff;
-    text-align: center; }
+    line-height: 10px;
+    color: white;
+    background-color: #FFB61E;
+    border-radius: 100px;
+    padding: 15px 30px;
+    text-align: center;
+    margin: 20px 20px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    left: 43%; }
+  #section4 h2 {
+    line-height: 10px;
+    color: white;
+    background-color: #FFB61E;
+    border-radius: 100px;
+    padding: 15px 30px;
+    text-align: center;
+    margin: 20px 20px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    left: 43%; }
 
 /* =============
     section 5
@@ -615,4 +691,14 @@ footer {
     background-position: top;
     background-size: 100%;
     height: 160px;
-    margin-bottom: 90px; }
+    margin-bottom: 90px;
+    background-repeat: no-repeat; }
+    @media (min-width: 768px) {
+      #section9 #tea {
+        background-size: 60%;
+        padding-bottom: 30px; } }
+    @media (min-width: 992px) {
+      #section9 #tea {
+        background-size: 50%;
+        height: 200px;
+        padding-bottom: 20px; } }
