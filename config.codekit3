@@ -19,6 +19,25 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/deploy/img/header/falling.gif": {
+		"ft": 4194304,
+		"iS": 474613,
+		"oA": 0,
+		"oAP": "/deploy/img/header/falling.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"/deploy/img/header/search.png": {
+		"ft": 32768,
+		"iS": 431,
+		"oA": 0,
+		"oAP": "/deploy/img/header/search.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/deploy/img/section1/hero.jpg": {
 		"ft": 16384,
 		"iS": 1509162,

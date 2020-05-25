@@ -340,7 +340,7 @@ ul {
 /* =============
     Typography
 ============= */
-h1, h2, h3, h4, h5, p {
+h1, h2, h3, h4, h5, p, header {
   font-family: 'Alice in Wonderland', sans-serif; }
 
 /* =============
@@ -370,7 +370,8 @@ textarea {
   @media (min-width: 992px) {
     #nav-container ul {
       display: flex;
-      justify-content: flex-end; } }
+      justify-content: flex-start;
+      height: 100%; } }
   #nav-container ul li {
     margin-bottom: 20px; }
     @media (min-width: 992px) {
@@ -387,6 +388,30 @@ textarea {
     #nav-container ul li a:active {
       color: #000; }
 
+#nav-container2 ul {
+  height: 100%;
+  text-align: left; }
+  @media (min-width: 992px) {
+    #nav-container2 ul {
+      display: flex;
+      justify-content: flex-end;
+      height: 100%; } }
+  #nav-container2 ul li {
+    margin-bottom: 20px; }
+    @media (min-width: 992px) {
+      #nav-container2 ul li {
+        align-items: center;
+        display: flex;
+        margin: 0px 30px 0 0; } }
+    #nav-container2 ul li a:link,
+    #nav-container2 ul li a:visited {
+      color: #000;
+      text-decoration: none;
+      transition: 0.25s; }
+    #nav-container2 ul li a:hover,
+    #nav-container2 ul li a:active {
+      color: #000; }
+
 /* =============
     Header
 ============= */
@@ -396,20 +421,26 @@ textarea {
 header {
   background-color: #FFB61E;
   left: 0;
-  position: fixed;
+  position: sticky;
   top: 0;
   width: 100%; }
   header > div {
     display: grid;
-    grid-template-areas: "logo burger" "nav nav";
-    grid-template-columns: 80% auto; }
+    grid-template-areas: "logo burger" "nav nav1";
+    grid-template-columns: 50% auto; }
+    header > div img {
+      width: 20%;
+      align-self: center; }
     @media (min-width: 992px) {
       header > div {
-        grid-template-areas: "logo nav";
-        grid-template-columns: 20% auto; } }
+        grid-template-areas: " nav logo nav1";
+        grid-template-columns: auto 15% auto; } }
     header > div #logo-container {
       grid-area: logo;
-      padding: 20px; }
+      padding: 0px 20px; }
+      @media (min-width: 992px) {
+        header > div #logo-container img {
+          width: 35%; } }
     header > div #burger-container {
       align-items: center;
       display: flex;
@@ -425,9 +456,18 @@ header {
       background-color: #FFB61E;
       display: none;
       grid-area: nav;
-      padding: 20px; }
+      padding: 0px 20px; }
       @media (min-width: 992px) {
         header > div #nav-container {
+          background-color: #FFB61E;
+          display: block !important; } }
+    header > div #nav-container2 {
+      background-color: #FFB61E;
+      display: none;
+      grid-area: nav1;
+      padding: 0px 20px; }
+      @media (min-width: 992px) {
+        header > div #nav-container2 {
           background-color: #FFB61E;
           display: block !important; } }
 /* =============

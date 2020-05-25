@@ -9,25 +9,37 @@
 header {
     background-color: $yellow;
     left: 0;
-    position: fixed;
+    position: sticky;
     top: 0;
     width: 100%;
 
+    
     >div {
         display: grid;
         grid-template-areas: "logo burger"
-            "nav nav";
-        grid-template-columns: 80% auto;
+            "nav nav1";
+        grid-template-columns: 50% auto;
+        img{
+            width: 20%;
+            align-self: center;
+        }
 
         @include lg {
-            grid-template-areas: "logo nav";
-            grid-template-columns: 20% auto;
+            grid-template-areas: " nav logo nav1";
+            grid-template-columns: auto 15% auto;
         }
 
         #logo-container {
             grid-area: logo;
-            padding: 20px;
+            padding: 0px 20px;
+            @include lg{
+                img{
+                    width: 35%;
+                }
+            }
         }
+
+        
 
         #burger-container {
             align-items: center;
@@ -35,6 +47,8 @@ header {
             grid-area: burger;
             justify-content: flex-end;
             padding: 20px;
+        
+
 
             @include lg {
                 display: none !important;
@@ -49,7 +63,19 @@ header {
             background-color: $yellow;
             display: none;
             grid-area: nav;
-            padding: 20px;
+            padding: 0px 20px;
+
+            @include lg {
+                background-color: $yellow;
+                display: block !important;
+            }
+        }
+
+        #nav-container2 {
+            background-color: $yellow;
+            display: none;
+            grid-area: nav1;
+            padding: 0px 20px;
 
             @include lg {
                 background-color: $yellow;
@@ -57,4 +83,7 @@ header {
             }
         }
     }
+
+    
 }
+
