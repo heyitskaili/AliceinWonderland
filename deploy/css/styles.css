@@ -612,8 +612,8 @@ footer {
   background-color: #000;
   background-image: url("../img/section3/cards/cardbottomleft.png"), url("../img/section3/cards/cardbottomright.png"), url("../img/section3/cards/cardtopleft.png"), url("../img/section3/cards/cardtopright.png");
   background-repeat: no-repeat;
-  background-position: left bottom, right bottom, left top, right top;
-  background-size: 30%, 40%, 40%, 30%; }
+  background-position: left bottom, 100% 60%, 0% 30%, right top;
+  background-size: 60%, 50%, 50%, 45%; }
   #section3 h2 {
     text-align: center;
     font-size: 45px;
@@ -640,8 +640,8 @@ footer {
     grid-area: rabbit; }
   #section3 .wrapper {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: " . alice . " ". . madhatter" " . cat ." ". . bug" ". whitequeen . " ". . redqueen" ". rabbit ." ". . mouse" ". hare .";
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: " alice . " ". madhatter" " cat ." ".  bug" " whitequeen . " ". redqueen" "rabbit ." ".  mouse" "hare .";
     text-align: center; }
   @media (min-width: 768px) {
     #section3 {
@@ -659,7 +659,7 @@ footer {
       background-image: url("../img/section3/cards/cardbottomleft.png"), url("../img/section3/cards/cardbottomright.png"), url("../img/section3/cards/cardtopleft.png"), url("../img/section3/cards/cardtopright.png");
       background-repeat: no-repeat;
       background-position: left bottom, right bottom, left top, right top;
-      background-size: 17%; }
+      background-size: 15%, 7%, 10%, 17%; }
       #section3 .wrapper {
         display: grid;
         grid-row-gap: 30px;
