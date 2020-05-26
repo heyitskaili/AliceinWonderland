@@ -7,6 +7,7 @@
 
     background-color: $black;
     padding-top: 50px;
+    text-align: center;
 
     background-image: url('../img/section2/cat.png'), url('../img/section2/flowerbottomleft.png'), url('../img/section2/flowerbottomright.png');
     background-repeat: no-repeat;
@@ -20,20 +21,6 @@
         color: $white;
     }
 
-    h2 {
-        line-height: 10px;
-        color: white;
-        background-color: $yellow;
-        border-radius: 100px;
-        padding: 15px 30px;
-        text-align: center;
-        margin: 20px 20px;
-        display: inline-block;
-        font-size: 16px;
-        cursor: pointer;
-        position: relative;
-        left: 35%;
-    }
 
     h4 {
         text-align: center;
@@ -49,20 +36,7 @@
         background-position: 50% 9%, 0%, 100%;
         background-size: 20%, 30%, 30%;
 
-        h2 {
-            line-height: 10px;
-            color: white;
-            background-color: $yellow;
-            border-radius: 100px;
-            padding: 15px 30px;
-            text-align: center;
-            margin: 20px 20px;
-            display: inline-block;
-            font-size: 16px;
-            cursor: pointer;
-            position: relative;
-            left: 40%;
-        }
+
 
     }
 
@@ -82,22 +56,29 @@
 
         }
 
-        h2 {
-            line-height: 10px;
+    }
+
+    button{
+         border: 1px $yellow solid;
             color: white;
-            background-color: $yellow;
-            border-radius: 100px;
-            padding: 15px 30px;
-            text-align: center;
-            margin: 40px 40px;
-            display: inline-block;
-            font-size: 16px;
-            cursor: pointer;
-            position: relative;
-            left: 43%;
-        }
+                background-color: $yellow;
+                border-radius: 100px;
+                padding: 15px 60px;
+                text-align: center;
+                margin-bottom: 40px;
+       
+            
+            
 
     }
+
+#i1{
+    margin-top: 40px;
+   
+
+    
+}
+
 
 
 

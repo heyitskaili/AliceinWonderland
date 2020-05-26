@@ -68,24 +68,20 @@
 
 
    
+text-align: center;
 
-    h2 {
-        line-height: 10px;
+    button{
+        border: 1px $yellow solid;
         color: white;
-        background-color: $yellow;
-        border-radius: 100px;
-        padding: 15px 30px;
-        text-align: center;
-        margin: 20px 20px;
-        display: inline-block;
-        font-size: 16px;
-        cursor: pointer;
-        position: relative;
-        left: 43%;
+            background-color: $yellow;
+            border-radius: 100px;
+            padding: 15px 30px;
+            text-align: center;
+            margin-bottom: 40px;
+            margin-top: 10px;
+    
     }
 
 
-
-
-
 }
+

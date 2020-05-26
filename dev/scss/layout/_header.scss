@@ -67,10 +67,10 @@ header {
         }
 
         #nav-container {
-            background-color: $yellow;
+            background-color: $orange;
             display: none;
             grid-area: nav;
-            padding: 0px 40px;
+            padding: 5px 40px 0px;
 
             @include lg {
                 background-color: $yellow;
@@ -79,10 +79,10 @@ header {
         }
 
         #nav-container2 {
-            background-color: $yellow;
+            background-color: $orange;
             display: none;
             grid-area: nav1;
-            padding: 0px 20px;
+            padding: 5px 20px;
 
             @include lg {
                 background-color: $yellow;

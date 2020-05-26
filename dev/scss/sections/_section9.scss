@@ -6,27 +6,27 @@
  
 #section9{
 
-    background-color: $purple;
-    // background-color: -webkit-linear-gradient(top,black 50%, yellow 50%);
-    // background-color: -moz-linear-gradient(black, yellow);
+    background: rgb(166,56,171);
+    background: linear-gradient(0deg, rgba(166,56,171,1) 0%, rgba(0,0,0,1) 100%);
     width: 100%;
-    background-size: 10px;
     #tea{
     background-image: url('../img/section9/teaparty.png');
-    background-position: top;
+    background-position: bottom;
     background-size: 100%;
     height: 160px;
     background-repeat: no-repeat;
+    padding-top: 300px;
 
     @include md{
         background-size: 60%;
-        padding-bottom: 30px;
+        padding-bottom: 25px;
 
 
     }
 
 
     @include lg{
+        padding-top: 200px;
         background-size: 50%;
         height: 200px;
 
