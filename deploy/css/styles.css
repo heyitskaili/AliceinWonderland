@@ -693,7 +693,7 @@ footer {
     section 5
 ============= */
 #section5 {
-  background-color: #C8A2C8;
+  background-color: #A08DA1;
   padding-top: 20px;
   padding-bottom: 180%;
   background-image: url("../img/section5/path3.png"), url("../img/section5/path5.png"), url("../img/section5/cats.png");
@@ -756,9 +756,9 @@ footer {
       grid-template-columns: 50% 50%;
       grid-template-areas: "quote cat"; } }
   #section8 button {
-    border: 1px #C8A2C8 solid;
+    border: 1px #a638ab solid;
     color: white;
-    background-color: #C8A2C8;
+    background-color: #a638ab;
     border-radius: 100px;
     padding: 15px 60px;
     text-align: center;
