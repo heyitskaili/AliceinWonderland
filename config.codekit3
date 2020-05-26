@@ -181,6 +181,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/deploy/img/section3/dividerbottom.png": {
+		"ft": 32768,
+		"iS": 7353,
+		"oA": 0,
+		"oAP": "/deploy/img/section3/dividerbottom.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/section3/dividertop.png": {
+		"ft": 32768,
+		"iS": 13498,
+		"oA": 0,
+		"oAP": "/deploy/img/section3/dividertop.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/deploy/img/section3/guest/alice.png": {
 		"ft": 32768,
 		"iS": 60286,

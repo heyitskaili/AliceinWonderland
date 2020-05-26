@@ -337,6 +337,9 @@ ul {
   @media (min-width: 992px) {
     .show-for-large {
       display: block; } }
+.divider img {
+  width: 70%; }
+
 /* =============
     Typography
 ============= */
@@ -645,8 +648,6 @@ footer {
   background-color: #000;
   padding-top: 10px;
   text-align: center; }
-  #section4 img {
-    width: 100%; }
   #section4 h1 {
     text-align: center;
     font-size: 45px;
@@ -656,6 +657,8 @@ footer {
     grid-template-columns: repeat(5, 1fr);
     grid-template-areas: "la tea1 tea2 tea3 ra" ". . button . .";
     column-gap: 10px; }
+    #section4 .tea img {
+      width: 100%; }
   #section4 #tea1 {
     grid-area: tea1; }
   #section4 #tea2 {

@@ -4,9 +4,7 @@
 
 
 #section4 {
-    img {
-        width: 100%;
-    }
+    
 
     background-color: $black;
     padding-top: 10px;
@@ -24,6 +22,9 @@
 
 
     .tea {
+        img {
+            width: 100%;
+        }
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         grid-template-areas:
