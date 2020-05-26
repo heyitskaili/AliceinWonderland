@@ -5,7 +5,8 @@
 
 
 #section5 {
-background-color: $lightpurple;
+    background: rgb(166,56,171);
+    background: linear-gradient(0deg, rgba(166,56,171,1) 0%, rgba(0,0,0,1) 100%);
     
     padding-top: 20px;
 
@@ -16,9 +17,9 @@ background-color: $lightpurple;
     }
 
 
-    
+    #section5-img{
 
-    padding-bottom: 180%;
+        padding-bottom: 180%;
 
     background-image: url('../img/section5/path3.png'),
     url('../img/section5/path5.png'),
@@ -72,5 +73,9 @@ background-color: $lightpurple;
         100%,
         25%;
     }
+
+    }
+
+    
 
 }
