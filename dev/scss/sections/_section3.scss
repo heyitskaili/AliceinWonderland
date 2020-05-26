@@ -119,7 +119,12 @@ background-image: url('../img/section3/cards/cardbottomleft.png'), url('../img/s
         
         .wrapper{
             display: grid;
-            grid-template-areas: repeat(8, 1fr);
+            grid-row-gap: 30px;
+            grid-template-areas: repeat(5, 1fr);
+            grid-template-areas: 
+            " . alice madhatter bug ."
+            " . whitequeen redqueen cat ."
+            " . hare mouse rabbit .";
         }
        
             

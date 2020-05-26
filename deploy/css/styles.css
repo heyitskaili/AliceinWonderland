@@ -439,8 +439,10 @@ header {
       grid-area: logo;
       padding: 0px 20px; }
       @media (min-width: 992px) {
-        header > div #logo-container img {
-          width: 35%; } }
+        header > div #logo-container h1 img {
+          padding-left: 45px;
+          width: 35%;
+          align-self: center; } }
     header > div #burger-container {
       align-items: center;
       display: flex;
@@ -456,7 +458,7 @@ header {
       background-color: #FFB61E;
       display: none;
       grid-area: nav;
-      padding: 0px 20px; }
+      padding: 0px 40px; }
       @media (min-width: 992px) {
         header > div #nav-container {
           background-color: #FFB61E;
@@ -660,7 +662,9 @@ footer {
       background-size: 17%; }
       #section3 .wrapper {
         display: grid;
-        grid-template-areas: repeat(8, 1fr); } }
+        grid-row-gap: 30px;
+        grid-template-areas: repeat(5, 1fr);
+        grid-template-areas: " . alice madhatter bug ." " . whitequeen redqueen cat ." " . hare mouse rabbit ."; } }
 /* =============
     section 4
 ============= */
@@ -676,7 +680,7 @@ footer {
   #section4 .tea {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-areas: "la tea1 tea2 tea3 ra"  ". . button . .";
+    grid-template-areas: "la tea1 tea2 tea3 ra" ". . button . .";
     column-gap: 10px; }
   #section4 #tea1 {
     grid-area: tea1; }
@@ -698,19 +702,6 @@ footer {
     grid-area: button;
     width: 15%;
     padding-left: 40%; }
-  #section4 h2 {
-    line-height: 10px;
-    color: white;
-    background-color: #FFB61E;
-    border-radius: 100px;
-    padding: 15px 30px;
-    text-align: center;
-    margin: 20px 20px;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-    position: relative;
-    left: 43%; }
   #section4 h2 {
     line-height: 10px;
     color: white;
@@ -772,28 +763,51 @@ footer {
     section 8
 ============= */
 #section8 {
-  background-color: #000;
-  grid-area: cat; }
+  background-color: #000; }
+  #section8 h2 {
+    line-height: 10px;
+    color: white;
+    background-color: #C8A2C8;
+    border-radius: 100px;
+    padding: 15px 30px;
+    text-align: center;
+    margin: 20px 20px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    left: 35%; }
   #section8 #cat {
     background-image: url("../img/section8/catt.png");
     background-position: 50% 85%;
     background-repeat: no-repeat;
-    height: 500px; }
-    @media (min-width: 992px) {
-      #section8 #cat {
-        background-position: left; } }
-#quote {
-  background-image: url("../img/section8/madquote.png");
-  background-position: top;
-  background-repeat: no-repeat;
-  height: 445px;
-  grid-area: quote; }
+    height: 500px;
+    grid-area: cat; }
+  #section8 #quote {
+    background-image: url("../img/section8/madquote.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 445px;
+    grid-area: quote; }
+  @media (min-width: 768px) {
+    #section8 #up {
+      display: grid;
+      grid-template-columns: 50% 50%;
+      grid-template-areas: "quote cat"; } }
   @media (min-width: 992px) {
-    #quote {
-      background-position: top right; } }
-@media (min-width: 992px) {
-  background-position: left; }
-
+    #section8 h2 {
+      line-height: 10px;
+      color: white;
+      background-color: #C8A2C8;
+      border-radius: 100px;
+      padding: 15px 30px;
+      text-align: center;
+      margin: 40px 40px;
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer;
+      position: relative;
+      left: 43%; } }
 /* =============
     section 9
 ============= */

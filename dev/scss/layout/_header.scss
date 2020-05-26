@@ -13,13 +13,14 @@ header {
     top: 0;
     width: 100%;
 
-    
+
     >div {
         display: grid;
         grid-template-areas: "logo burger"
             "nav nav1";
         grid-template-columns: 50% auto;
-        img{
+
+        img {
             width: 20%;
             align-self: center;
         }
@@ -32,14 +33,20 @@ header {
         #logo-container {
             grid-area: logo;
             padding: 0px 20px;
-            @include lg{
-                img{
-                    width: 35%;
+
+            @include lg {
+
+                h1 {
+                    img {
+                        padding-left: 45px;
+                        width: 35%;
+                        align-self: center;
+                    }
                 }
             }
         }
 
-        
+
 
         #burger-container {
             align-items: center;
@@ -47,7 +54,7 @@ header {
             grid-area: burger;
             justify-content: flex-end;
             padding: 20px;
-        
+
 
 
             @include lg {
@@ -63,7 +70,7 @@ header {
             background-color: $yellow;
             display: none;
             grid-area: nav;
-            padding: 0px 20px;
+            padding: 0px 40px;
 
             @include lg {
                 background-color: $yellow;
@@ -84,6 +91,5 @@ header {
         }
     }
 
-    
-}
 
+}

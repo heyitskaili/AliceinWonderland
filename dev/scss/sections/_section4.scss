@@ -3,92 +3,74 @@
 ============= */
 
 
-#section4{
-    img{
+#section4 {
+    img {
         width: 100%;
     }
 
     background-color: $black;
     padding-top: 10px;
 
-h1{
-    text-align: center;
-    font-size: 45px;
-    color:$white;
-}
-
-
-
-
-
-
-    .tea{
-        display: grid;
-        grid-template-columns: repeat(5,1fr);
-        grid-template-areas:
-        "la tea1 tea2 tea3 ra" 
-        ". . button . .";
-        column-gap: 10px;
-        
+    h1 {
+        text-align: center;
+        font-size: 45px;
+        color: $white;
     }
-    
-    
-    #tea1{
+
+
+
+
+
+
+
+    .tea {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-areas:
+            "la tea1 tea2 tea3 ra"
+            ". . button . .";
+        column-gap: 10px;
+
+    }
+
+
+    #tea1 {
         grid-area: tea1;
     }
-    
-    #tea2{
+
+    #tea2 {
         grid-area: tea2;
     }
-    
-    #tea3{
+
+    #tea3 {
         grid-area: tea3;
     }
-    
-    #la{
+
+    #la {
         grid-area: la;
         width: 10%;
         padding-top: 28%;
         padding-left: 70%;
     }
-    
-    #ra{
+
+    #ra {
         grid-area: ra;
         width: 10%;
         padding-top: 28%;
         padding-left: 20%;
     }
-    
-    #button{
+
+    #button {
         grid-area: button;
         width: 15%;
         padding-left: 40%;
     }
 
-    h2{
+
+   
+
+    h2 {
         line-height: 10px;
-            color: white;
-            background-color: $yellow;
-            border-radius: 100px;
-            padding: 15px 30px;
-            text-align: center;
-            margin: 20px 20px;
-            display: inline-block;
-            font-size: 16px;
-            cursor: pointer;
-            position: relative;
-            left: 43%;
-    }
-
-
-
-
-
-
-
-
-h2{
-    line-height: 10px;
         color: white;
         background-color: $yellow;
         border-radius: 100px;
@@ -100,9 +82,10 @@ h2{
         cursor: pointer;
         position: relative;
         left: 43%;
-}
+    }
+
+
+
+
 
 }
-
-
-
