@@ -5,7 +5,8 @@
 
 #section3 {
 
-    background-color: $black;
+    background: rgb(160,141,161);
+    background: linear-gradient(0deg, rgba(160,141,161,1) 0%, rgba(0,0,0,1) 100%);
 
 
     h2 {
@@ -17,9 +18,7 @@
     h1 {
         color: $white;
     }
-
-
-
+#section3-img{
 
     .alice {
         grid-area: alice;
@@ -139,5 +138,11 @@
 
     }
 
+
+}
+
+
+
+  
 
 }

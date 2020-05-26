@@ -585,116 +585,120 @@ footer {
     section 3
 ============= */
 #section3 {
-  background-color: #000;
-  background-image: url("../img/section3/cards/cardbottomleft.png"), url("../img/section3/cards/cardbottomright.png"), url("../img/section3/cards/cardtopleft.png"), url("../img/section3/cards/cardtopright.png");
-  background-repeat: no-repeat;
-  background-position: left bottom, 100% 60%, 0% 30%, right top;
-  background-size: 60%, 50%, 50%, 45%; }
+  background: #a08da1;
+  background: linear-gradient(0deg, #a08da1 0%, black 100%); }
   #section3 h2 {
     text-align: center;
     font-size: 45px;
     color: #fff; }
   #section3 h1 {
     color: #fff; }
-  #section3 .alice {
-    grid-area: alice; }
-  #section3 #cat {
-    grid-area: cat; }
-  #section3 #bug {
-    grid-area: bug; }
-  #section3 #hare {
-    grid-area: hare; }
-  #section3 #madhatter {
-    grid-area: madhatter; }
-  #section3 #mouse {
-    grid-area: mouse; }
-  #section3 #red {
-    grid-area: redqueen; }
-  #section3 #white {
-    grid-area: whitequeen; }
-  #section3 #rabbit {
-    grid-area: rabbit; }
-  #section3 .wrapper {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: " alice . " ". madhatter" " cat ." ".  bug" " whitequeen . " ". redqueen" "rabbit ." ".  mouse" "hare .";
-    text-align: center; }
-  @media (min-width: 768px) {
-    #section3 {
-      background-image: url("../img/section3/cards/cardbottomleft.png"), url("../img/section3/cards/cardbottomright.png"), url("../img/section3/cards/cardtopleft.png"), url("../img/section3/cards/cardtopright.png");
-      background-repeat: no-repeat;
-      background-position: left bottom, right bottom, left top, right top;
-      background-size: 30%, 30%, 30%, 30%; }
-      #section3 .wrapper {
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        grid-template-areas: " . . alice . . " " . cat . madhatter ." ". whitequeen . redqueen ." ". bug . rabbit . " ". hare . mouse .";
-        text-align: center; } }
-  @media (min-width: 992px) {
-    #section3 {
-      background-image: url("../img/section3/cards/cardbottomleft.png"), url("../img/section3/cards/cardbottomright.png"), url("../img/section3/cards/cardtopleft.png"), url("../img/section3/cards/cardtopright.png");
-      background-repeat: no-repeat;
-      background-position: left bottom, right bottom, left top, right top;
-      background-size: 15%, 7%, 10%, 17%; }
-      #section3 .wrapper {
-        display: grid;
-        grid-row-gap: 30px;
-        grid-template-areas: repeat(5, 1fr);
-        grid-template-areas: " . alice madhatter bug ." " . whitequeen redqueen cat ." " . hare mouse rabbit ."; } }
+  #section3 #section3-img {
+    background-image: url("../img/section3/cards/cardbottomleft.png"), url("../img/section3/cards/cardbottomright.png"), url("../img/section3/cards/cardtopleft.png"), url("../img/section3/cards/cardtopright.png");
+    background-repeat: no-repeat;
+    background-position: left bottom, 100% 60%, 0% 30%, right top;
+    background-size: 60%, 50%, 50%, 45%; }
+    #section3 #section3-img .alice {
+      grid-area: alice; }
+    #section3 #section3-img #cat {
+      grid-area: cat; }
+    #section3 #section3-img #bug {
+      grid-area: bug; }
+    #section3 #section3-img #hare {
+      grid-area: hare; }
+    #section3 #section3-img #madhatter {
+      grid-area: madhatter; }
+    #section3 #section3-img #mouse {
+      grid-area: mouse; }
+    #section3 #section3-img #red {
+      grid-area: redqueen; }
+    #section3 #section3-img #white {
+      grid-area: whitequeen; }
+    #section3 #section3-img #rabbit {
+      grid-area: rabbit; }
+    #section3 #section3-img .wrapper {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-areas: " alice . " ". madhatter" " cat ." ".  bug" " whitequeen . " ". redqueen" "rabbit ." ".  mouse" "hare .";
+      text-align: center; }
+    @media (min-width: 768px) {
+      #section3 #section3-img {
+        background-image: url("../img/section3/cards/cardbottomleft.png"), url("../img/section3/cards/cardbottomright.png"), url("../img/section3/cards/cardtopleft.png"), url("../img/section3/cards/cardtopright.png");
+        background-repeat: no-repeat;
+        background-position: left bottom, right bottom, left top, right top;
+        background-size: 30%, 30%, 30%, 30%; }
+        #section3 #section3-img .wrapper {
+          display: grid;
+          grid-template-columns: repeat(5, 1fr);
+          grid-template-areas: " . . alice . . " " . cat . madhatter ." ". whitequeen . redqueen ." ". bug . rabbit . " ". hare . mouse .";
+          text-align: center; } }
+    @media (min-width: 992px) {
+      #section3 #section3-img {
+        background-image: url("../img/section3/cards/cardbottomleft.png"), url("../img/section3/cards/cardbottomright.png"), url("../img/section3/cards/cardtopleft.png"), url("../img/section3/cards/cardtopright.png");
+        background-repeat: no-repeat;
+        background-position: left bottom, right bottom, left top, right top;
+        background-size: 15%, 7%, 10%, 17%; }
+        #section3 #section3-img .wrapper {
+          display: grid;
+          grid-row-gap: 30px;
+          grid-template-areas: repeat(5, 1fr);
+          grid-template-areas: " . alice madhatter bug ." " . whitequeen redqueen cat ." " . hare mouse rabbit ."; } }
 /* =============
     section 4
 ============= */
 #section4 {
-  background-color: #000;
-  padding-top: 10px;
-  text-align: center; }
+  background: #7c707d;
+  background: linear-gradient(0deg, #7c707d 0%, #a08da1 100%);
+  padding-top: 10px; }
   #section4 h1 {
     text-align: center;
     font-size: 45px;
     color: #fff; }
-  #section4 .tea {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-areas: "la tea1 tea2 tea3 ra" ". . button . .";
-    column-gap: 10px; }
-    #section4 .tea img {
-      width: 100%; }
-  #section4 #tea1 {
-    grid-area: tea1; }
-  #section4 #tea2 {
-    grid-area: tea2; }
-  #section4 #tea3 {
-    grid-area: tea3; }
-  #section4 #la {
-    grid-area: la;
-    width: 10%;
-    padding-top: 28%;
-    padding-left: 70%; }
-  #section4 #ra {
-    grid-area: ra;
-    width: 10%;
-    padding-top: 28%;
-    padding-left: 20%; }
-  #section4 #button {
-    grid-area: button;
-    width: 15%;
-    padding-left: 40%; }
-  #section4 button {
-    border: 1px #FFB61E solid;
-    color: white;
-    background-color: #FFB61E;
-    border-radius: 100px;
-    padding: 15px 30px;
-    text-align: center;
-    margin-bottom: 40px;
-    margin-top: 10px; }
+  #section4 #section4-img {
+    text-align: center; }
+    #section4 #section4-img .tea {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-areas: "la tea1 tea2 tea3 ra" ". . button . .";
+      column-gap: 10px; }
+      #section4 #section4-img .tea img {
+        width: 100%; }
+    #section4 #section4-img #tea1 {
+      grid-area: tea1; }
+    #section4 #section4-img #tea2 {
+      grid-area: tea2; }
+    #section4 #section4-img #tea3 {
+      grid-area: tea3; }
+    #section4 #section4-img #la {
+      grid-area: la;
+      width: 10%;
+      padding-top: 28%;
+      padding-left: 70%; }
+    #section4 #section4-img #ra {
+      grid-area: ra;
+      width: 10%;
+      padding-top: 28%;
+      padding-left: 20%; }
+    #section4 #section4-img #button {
+      grid-area: button;
+      width: 15%;
+      padding-left: 40%; }
+    #section4 #section4-img button {
+      border: 1px #FFB61E solid;
+      color: white;
+      background-color: #FFB61E;
+      border-radius: 100px;
+      padding: 15px 30px;
+      text-align: center;
+      margin-bottom: 40px;
+      margin-top: 10px; }
 
 /* =============
     section 5
 ============= */
 #section5 {
-  background: #a638ab;
-  background: linear-gradient(0deg, #a638ab 0%, black 100%);
+  background: #4e424e;
+  background: linear-gradient(0deg, #4e424e 0%, #7c707d 100%);
   padding-top: 20px; }
   #section5 h1 {
     text-align: center;

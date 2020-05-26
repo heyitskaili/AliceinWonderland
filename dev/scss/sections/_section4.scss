@@ -5,8 +5,8 @@
 
 #section4 {
     
-
-    background-color: $black;
+    background: rgb(124,112,125);
+    background: linear-gradient(0deg, rgba(124,112,125,1) 0%, rgba(160,141,161,1) 100%);
     padding-top: 10px;
 
     h1 {
@@ -19,7 +19,7 @@
 
 
 
-
+#section4-img{
 
     .tea {
         img {
@@ -83,6 +83,10 @@ text-align: center;
     
     }
 
+
+}
+
+    
 
 }
 
