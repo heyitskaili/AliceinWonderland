@@ -448,7 +448,7 @@ textarea {
 header {
   background-color: #FFB61E;
   left: 0;
-  position: sticky;
+  position: absolute;
   top: 0;
   width: 100%; }
   header > div {
