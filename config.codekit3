@@ -466,7 +466,7 @@
 		},
 	"/deploy/img/section5/redqueens.png": {
 		"ft": 32768,
-		"iS": 57764,
+		"iS": 58745,
 		"oA": 0,
 		"oAP": "/deploy/img/section5/redqueens.png",
 		"oF": 0,
@@ -816,19 +816,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_section5.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/scss/sections/_section6.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/_section6.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
