@@ -4,9 +4,9 @@
 
 
 #section4 {
-    
-    background: rgb(124,112,125);
-    background: linear-gradient(0deg, rgba(124,112,125,1) 0%, rgba(160,141,161,1) 100%);
+
+    background: rgb(124, 112, 125);
+    background: linear-gradient(0deg, rgba(124, 112, 125, 1) 0%, rgba(160, 141, 161, 1) 100%);
     padding-top: 10px;
 
     h1 {
@@ -15,22 +15,26 @@
         color: $white;
     }
 
+    @include md {
 
+        #section4-img {
 
+            .tea {
+                img {
+                    width: 100%;
+                }
 
+                display: grid;
+                grid-template-columns: repeat(5, 1fr);
+                grid-template-areas: "la tea1 tea2 tea3 ra"
+                ". . button . .";
+                column-gap: 10px;
 
-#section4-img{
+            }
 
-    .tea {
-        img {
-            width: 100%;
         }
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        grid-template-areas:
-            "la tea1 tea2 tea3 ra"
-            ". . button . .";
-        column-gap: 10px;
+
+
 
     }
 
@@ -48,18 +52,25 @@
     }
 
     #la {
+
         grid-area: la;
+
         width: 10%;
         padding-top: 28%;
         padding-left: 70%;
     }
 
     #ra {
+        
         grid-area: ra;
+
         width: 10%;
         padding-top: 28%;
         padding-left: 20%;
+
+
     }
+
 
     #button {
         grid-area: button;
@@ -68,25 +79,35 @@
     }
 
 
-   
-text-align: center;
 
-    button{
-        border: 1px $yellow solid;
-        color: white;
+        text-align: center;
+
+        button {
+            border: 1px $yellow solid;
+            color: white;
             background-color: $yellow;
             border-radius: 100px;
             padding: 15px 30px;
             text-align: center;
             margin-bottom: 40px;
             margin-top: 10px;
-    
-    }
 
+        }
 
-}
 
     
+        @media (max-width:767px) {
+            #ra {
+              display: none;
+            }
+
+            #la{
+                display: none;
+            }
+
+            #button{
+                display: none;
+            }
+          }
 
 }
-
