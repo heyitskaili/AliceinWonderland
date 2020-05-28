@@ -442,6 +442,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/deploy/img/section5/quote1.png": {
+		"ft": 32768,
+		"iS": 27038,
+		"oA": 0,
+		"oAP": "/deploy/img/section5/quote1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/deploy/img/section5/rabbits.png": {
 		"ft": 32768,
 		"iS": 31494,
@@ -477,7 +488,7 @@
 		},
 	"/deploy/img/section6/path3.png": {
 		"ft": 32768,
-		"iS": 11712,
+		"iS": 27038,
 		"oA": 0,
 		"oAP": "/deploy/img/section6/path3.png",
 		"oF": 0,
@@ -912,14 +923,6 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/section5.html",
-		"oF": 1
-		},
-	"/dev/section6.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/section6.html",
 		"oF": 1
 		},
 	"/dev/section7.kit": {

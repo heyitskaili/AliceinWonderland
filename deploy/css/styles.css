@@ -712,35 +712,27 @@ footer {
     color: #fff; }
   #section5 #section5-img {
     padding-bottom: 180%;
-    background-image: url("../img/section5/path3.png"), url("../img/section5/path5.png"), url("../img/section5/cats.png");
+    background-image: url("../img/section5/path3.png"), url("../img/section5/quote1.png"), url("../img/section5/cats.png");
     background-repeat: no-repeat;
     background-position: 40% 20%, bottom, 10% 85%;
     background-size: 200%, 100%, 25%; }
     @media (min-width: 768px) {
       #section5 #section5-img {
         padding-bottom: 130%;
-        background-image: url("../img/section5/path1.png"), url("../img/section5/path5.png"), url("../img/section5/cats.png");
+        background-image: url("../img/section5/path1.png"), url("../img/section5/quote1.png"), url("../img/section5/cats.png");
         background-repeat: no-repeat;
         background-position: 50% 20%, bottom, 3% 80%;
         background-size: 110%,  100%, 25%; } }
     @media (min-width: 992px) {
       #section5 #section5-img {
         padding-bottom: 100%;
-        background-image: url("../img/section5/path1.png"), url("../img/section5/whiterabbit.png"), url("../img/section5/redqueens.png"), url("../img/section5/cats.png"), url("../img/section5/rabbits.png"), url("../img/section5/path5.png"), url("../img/section5/rabbits.png");
+        background-image: url("../img/section5/path1.png"), url("../img/section5/whiterabbit.png"), url("../img/section5/redqueens.png"), url("../img/section5/cats.png"), url("../img/section5/rabbits.png"), url("../img/section5/quote1.png"), url("../img/section5/rabbits.png");
         background-repeat: no-repeat;
         background-position: 50% 11%,  center,  center,  10% 70%, center, bottom, center;
         background-size: 80%,  25%, 25%, 20%, 25%, 100%, 25%; } }
 /* =============
     section 6
 ============= */
-#section6 {
-  background-color: #000;
-  padding-top: 20px; }
-  #section6 h3 {
-    text-align: center;
-    font-size: 45px;
-    color: #fff; }
-
 /* =============
     section 7
 ============= */
