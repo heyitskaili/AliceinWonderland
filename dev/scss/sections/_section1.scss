@@ -2,20 +2,20 @@
     section 1
 ============= */
 
-#section1{
+#section1 {
 
     background-image: url('../img/section1/hero.jpg');
     background-position: 50% 90%;
     height: 800px;
 
-    @include md{
+    @include md {
         background-position: 20% 50%;
-        height: 950px ;
+        height: 950px;
     }
 
-    @include lg{
+    @include lg {
         background-position: center;
-        height: 950px ;
+        height: 950px;
     }
 
 

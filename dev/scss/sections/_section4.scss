@@ -61,7 +61,7 @@
     }
 
     #ra {
-        
+
         grid-area: ra;
 
         width: 10%;
@@ -80,34 +80,34 @@
 
 
 
+    text-align: center;
+
+    button {
+        border: 1px $yellow solid;
+        color: white;
+        background-color: $yellow;
+        border-radius: 100px;
+        padding: 15px 30px;
         text-align: center;
+        margin-bottom: 40px;
+        margin-top: 10px;
 
-        button {
-            border: 1px $yellow solid;
-            color: white;
-            background-color: $yellow;
-            border-radius: 100px;
-            padding: 15px 30px;
-            text-align: center;
-            margin-bottom: 40px;
-            margin-top: 10px;
+    }
 
+
+
+    @media (max-width:767px) {
+        #ra {
+            display: none;
         }
 
+        #la {
+            display: none;
+        }
 
-    
-        @media (max-width:767px) {
-            #ra {
-              display: none;
-            }
-
-            #la{
-                display: none;
-            }
-
-            #button{
-                display: none;
-            }
-          }
+        #button {
+            display: none;
+        }
+    }
 
 }

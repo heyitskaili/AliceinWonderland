@@ -3,41 +3,41 @@
 ============= */
 
 
- 
-#section9{
 
-    background: rgb(166,56,171);
-    background: linear-gradient(0deg, rgba(166,56,171,1) 0%, rgba(0,0,0,1) 100%);
+#section9 {
+
+    background: rgb(166, 56, 171);
+    background: linear-gradient(0deg, rgba(166, 56, 171, 1) 0%, rgba(0, 0, 0, 1) 100%);
     width: 100%;
-    #tea{
-    background-image: 
-    url('../img/section8/catmoving.gif'),
-    url('../img/section9/teaparty.png');
-    background-position: bottom;
-    background-size: 10%,100%;
-    height: 160px;
-    background-repeat: no-repeat;
-    padding-top: 300px;
 
-    @include md{
-        background-size: 7%,60%;
-        padding-bottom: 25px;
+    #tea {
+        background-image:
+            url('../img/section8/catmoving.gif'),
+            url('../img/section9/teaparty.png');
+        background-position: bottom;
+        background-size: 10%, 100%;
+        height: 160px;
+        background-repeat: no-repeat;
+        padding-top: 300px;
+
+        @include md {
+            background-size: 7%, 60%;
+            padding-bottom: 25px;
 
 
+        }
+
+
+        @include lg {
+            padding-top: 200px;
+            background-size: 5%, 50%;
+            height: 200px;
+
+        }
     }
 
 
-    @include lg{
-        padding-top: 200px;
-        background-size: 5%, 50%;
-        height: 200px;
-
-    }
-    }
-
-   
 
 
-    
+
 }
-    

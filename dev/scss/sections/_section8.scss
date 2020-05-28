@@ -28,43 +28,28 @@
     }
 
 
-
-
-
-
-
-
-    #up {
+    #container {
         @include md {
             display: grid;
             grid-template-columns: 50% 50%;
             grid-template-areas: "quote cat";
-
-
         }
 
 
     }
 
-    button{
+    button {
         border: 1px $purple solid;
         color: white;
-            background-color: $purple;
-            border-radius: 100px;
-            padding: 15px 60px;
-            text-align: center;
-            margin-bottom: 40px;
-            
-
+        background-color: $purple;
+        border-radius: 100px;
+        padding: 15px 60px;
+        text-align: center;
+        margin-bottom: 40px;
     }
 
-    #i2{
+    #i2 {
         margin-top: 40px;
-       
-    
-        
     }
-
-  
 
 }
