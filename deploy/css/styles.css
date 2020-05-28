@@ -416,6 +416,30 @@ textarea {
       color: #000; }
 
 /* =============
+    Video Player
+============= */
+.video-wrapper {
+  position: relative;
+  padding-bottom: 75%;
+  /* 4:6 */
+  padding-top: 25px;
+  height: 0; }
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+.widescreen {
+  padding-bottom: 56.25%;
+  /* 16:9 */ }
+
+/* ===================
+    End Video Player
+=================== */
+/* =============
     Header
 ============= */
 /* =============
@@ -737,6 +761,20 @@ footer {
 /* =============
     section 7
 ============= */
+#section7 {
+  background-color: #000;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: auto 50% auto;
+  grid-template-areas: ". video ."; }
+  #section7 > div {
+    grid-area: video;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    #section7 > div section {
+      width: 100%; }
+
 /* =============
     section 8
 ============= */
