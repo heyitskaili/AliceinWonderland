@@ -74,6 +74,17 @@
 
 #i1{
     margin-top: 40px;
+}
+img{
+    width: 20%;
+}
+
+@include lg{
+
+img{
+    width: 10%;
+}
+}
    
 
     
@@ -82,4 +93,3 @@
 
 
 
-}

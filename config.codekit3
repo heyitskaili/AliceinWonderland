@@ -519,6 +519,14 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/deploy/img/section8/catmoving.gif": {
+		"ft": 4194304,
+		"iS": 366414,
+		"oA": 0,
+		"oAP": "/deploy/img/section8/catmoving.gif",
+		"oF": 0,
+		"opt": 0
+		},
 	"/deploy/img/section8/catt.png": {
 		"ft": 32768,
 		"iS": 144235,
