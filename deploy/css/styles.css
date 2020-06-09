@@ -448,7 +448,7 @@ textarea {
 header {
   background-color: #FFB61E;
   left: 0;
-  position: absolute;
+  position: sticky;
   top: 0;
   width: 100%; }
   header > div {
@@ -494,7 +494,7 @@ header {
       background-color: #FFA500;
       display: none;
       grid-area: nav1;
-      padding: 5px 20px; }
+      padding: 0px 20px; }
       @media (min-width: 992px) {
         header > div #nav-container2 {
           background-color: #FFB61E;
@@ -585,7 +585,7 @@ footer {
       background-size: 20%, 30%, 30%; } }
   @media (min-width: 992px) {
     #section2 {
-      background-image: url("../img/section2/cat.png"), url("../img/section2/flowerbottomleft.png"), url("../img/section2/flowerbottomright.png");
+      background-image: url("../img/section2/cat.png"), url("../img/section2/flowerleft.png"), url("../img/section2/flowerright.png");
       background-repeat: no-repeat;
       background-position: 50% 9%, 25%, 75%;
       background-size: 12%, 15%, 15%; }
@@ -683,6 +683,13 @@ footer {
     text-align: center;
     font-size: 45px;
     color: #fff; }
+  #section4 .tea {
+    display: grid;
+    grid-template-columns: 50px auto 50px;
+    grid-template-areas: ". tea1 ." ". tea2 ." ". tea3 .";
+    row-gap: 20px; }
+    #section4 .tea img {
+      width: 100%; }
   @media (min-width: 768px) {
     #section4 #section4-img .tea {
       display: grid;
@@ -754,10 +761,10 @@ footer {
     @media (min-width: 992px) {
       #section5 #section5-img {
         padding-bottom: 100%;
-        background-image: url("../img/section5/rabbits.png"), url("../img/section5/path1.png"), url("../img/section5/whiterabbit.png"), url("../img/section5/redqueens.png"), url("../img/section5/cats.png"), url("../img/section5/quote1.png"), url("../img/section5/alices.png");
+        background-image: url("../img/section5/rabbits.png"), url("../img/section5/path1.png"), url("../img/section5/whiterabbit.png"), url("../img/section5/redqueens.png"), url("../img/section5/cats.png"), url("../img/section5/quote2.png"), url("../img/section5/alices.png");
         background-repeat: no-repeat;
-        background-position: 99% 35%, 60% 12.5%, 65% 13%, 2% 25%, 10% 70%, bottom, 72% 60%;
-        background-size: 20%, 80%, 12%, 20%, 20%, 100%, 13%; } }
+        background-position: 99% 35%, 60% 12.5%, 65% 13%, 2% 25%, 15% 84%, bottom, 72% 70%;
+        background-size: 18%, 80%, 12%, 20%, 20%, 100%, 20%; } }
 /* =============
     section 7
 ============= */

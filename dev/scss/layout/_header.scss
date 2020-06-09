@@ -9,7 +9,7 @@
 header {
     background-color: $yellow;
     left: 0;
-    position: absolute;
+    position: sticky;
     top: 0;
     width: 100%;
 
@@ -82,7 +82,7 @@ header {
             background-color: $orange;
             display: none;
             grid-area: nav1;
-            padding: 5px 20px;
+            padding: 0px 20px;
 
             @include lg {
                 background-color: $yellow;
