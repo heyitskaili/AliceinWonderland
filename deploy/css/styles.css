@@ -620,7 +620,8 @@ footer {
     font-size: 45px;
     color: #fff; }
   #section3 h1 {
-    color: #fff; }
+    color: #fff;
+    font-size: 30px; }
   #section3 #section3-img {
     background-image: url("../img/section3/cards/cardbottomleft.png"), url("../img/section3/cards/cardbottomright.png"), url("../img/section3/cards/cardtopleft.png"), url("../img/section3/cards/cardtopright.png");
     background-repeat: no-repeat;

@@ -17,6 +17,7 @@
 
     h1 {
         color: $white;
+        font-size: 30px;
     }
 
     #section3-img {
@@ -96,7 +97,6 @@
 
         @include md {
 
-
             background-image: url('../img/section3/cards/cardbottomleft.png'), url('../img/section3/cards/cardbottomright.png'), url('../img/section3/cards/cardtopleft.png'), url('../img/section3/cards/cardtopright.png');
             background-repeat: no-repeat;
             background-position: left bottom, right bottom, left top, right top;
@@ -106,7 +106,8 @@
 
                 display: grid;
                 grid-template-columns: repeat(5, 1fr);
-                grid-template-areas: " . . alice . . "
+                grid-template-areas:
+                    " . . alice . . "
                     " . cat . madhatter ."
                     ". whitequeen . redqueen ."
                     ". bug . rabbit . "
