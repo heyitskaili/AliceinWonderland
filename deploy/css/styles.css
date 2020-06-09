@@ -770,10 +770,14 @@ footer {
 ============= */
 #section7 {
   background-color: #000;
-  height: 100vh;
+  background-image: url("../img/section7/fly.gif");
+  height: 30vh;
   display: grid;
   grid-template-columns: auto 50% auto;
   grid-template-areas: ". video ."; }
+  @media (min-width: 768px) {
+    #section7 {
+      height: 75vh; } }
   #section7 > div {
     grid-area: video;
     display: flex;

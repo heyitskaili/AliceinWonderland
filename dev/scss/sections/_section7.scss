@@ -4,7 +4,12 @@
 
 #section7{
     background-color: $black;
-    height: 100vh;
+    background-image: url("../img/section7/fly.gif");
+    height: 30vh;
+
+    @include md{
+        height: 75vh;
+    }
     display: grid;
     grid-template-columns: auto 50% auto;
     grid-template-areas: ". video .";
