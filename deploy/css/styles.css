@@ -447,6 +447,7 @@ textarea {
 ============= */
 header {
   background-color: #FFB61E;
+  z-index: 1000;
   left: 0;
   position: sticky;
   top: 0;
