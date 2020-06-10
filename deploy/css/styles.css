@@ -486,7 +486,7 @@ header {
       background-color: #FFA500;
       display: none;
       grid-area: nav;
-      padding: 5px 40px 0px; }
+      padding: 7px 40px; }
       @media (min-width: 992px) {
         header > div #nav-container {
           background-color: #FFB61E;
@@ -495,7 +495,7 @@ header {
       background-color: #FFA500;
       display: none;
       grid-area: nav1;
-      padding: 0px 20px; }
+      padding: 7px 20px; }
       @media (min-width: 992px) {
         header > div #nav-container2 {
           background-color: #FFB61E;
@@ -602,7 +602,12 @@ footer {
     border-radius: 100px;
     padding: 15px 60px;
     text-align: center;
-    margin-bottom: 40px; }
+    margin-bottom: 40px;
+    cursor: pointer; }
+  #section2 .yellowbutton {
+    background-color: #FFB61E; }
+  #section2 .yellowbutton:hover {
+    background-color: #000; }
   #section2 #i1 {
     margin-top: 40px; }
   #section2 img {
@@ -622,7 +627,7 @@ footer {
     color: #fff; }
   #section3 h1 {
     color: #fff;
-    font-size: 30px; }
+    font-size: 28px; }
   #section3 #section3-img {
     background-image: url("../img/section3/cards/cardbottomleft.png"), url("../img/section3/cards/cardbottomright.png"), url("../img/section3/cards/cardtopleft.png"), url("../img/section3/cards/cardtopright.png");
     background-repeat: no-repeat;
@@ -728,7 +733,12 @@ footer {
     padding: 15px 30px;
     text-align: center;
     margin-bottom: 40px;
-    margin-top: 10px; }
+    margin-top: 10px;
+    cursor: pointer; }
+  #section4 .yellowbutton {
+    background-color: #FFB61E; }
+  #section4 .yellowbutton:hover {
+    background-color: #A08DA1; }
   @media (max-width: 767px) {
     #section4 #ra {
       display: none; }
@@ -818,7 +828,12 @@ footer {
     border-radius: 100px;
     padding: 15px 60px;
     text-align: center;
-    margin-bottom: 40px; }
+    margin-bottom: 40px;
+    cursor: pointer; }
+  #section8 .purplebutton {
+    background-color: #a638ab; }
+  #section8 .purplebutton:hover {
+    background-color: #000; }
   #section8 #i2 {
     margin-top: 40px; }
 

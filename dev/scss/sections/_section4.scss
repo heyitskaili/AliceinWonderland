@@ -106,8 +106,10 @@
         text-align: center;
         margin-bottom: 40px;
         margin-top: 10px;
-
+        cursor: pointer;
     }
+    .yellowbutton{background-color: $yellow; }
+    .yellowbutton:hover{background-color: $lightpurple;}
 
 
 
