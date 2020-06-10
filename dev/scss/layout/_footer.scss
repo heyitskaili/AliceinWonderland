@@ -2,21 +2,13 @@
     Footer
 ============= */
 
-
-/* =============
-    Footer
-============= */
-
-/* =============
-    Footer
-============= */
 footer {
-    
+
     left: 0px;
     bottom: 0px;
     height: 40px;
     width: 100%;
-    
+
 
     background-color: $black;
     padding: 30px 0 80px;
@@ -27,23 +19,25 @@ footer {
             font-size: 1em;
             color: $white;
         }
+
         @include lg {
-          text-align: right;
-          padding-right: 1em;
+            text-align: right;
+            padding-right: 1em;
         }
 
         ul {
 
             @include lg {
                 display: flex;
-            justify-content: left;
+                justify-content: left;
             }
+
             display: flex;
             justify-content: center;
 
             li {
                 margin: 0 10px;
-        
+
 
                 a:link,
                 a:visited {

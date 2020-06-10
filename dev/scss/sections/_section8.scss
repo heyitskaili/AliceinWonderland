@@ -8,14 +8,11 @@
     background-color: $black;
     text-align: center;
 
-    #cat {
+    #cats {
         background-image: url("../img/section8/catt.png");
         background-position: 50% 85%;
         background-repeat: no-repeat;
         height: 500px;
-
-
-
         grid-area: cat;
     }
 
@@ -49,8 +46,13 @@
         cursor: pointer;
     }
 
-    .purplebutton{background-color: $purple; }
-    .purplebutton:hover{background-color: $black;}
+    .purplebutton {
+        background-color: $purple;
+    }
+
+    .purplebutton:hover {
+        background-color: $black;
+    }
 
     #i2 {
         margin-top: 40px;

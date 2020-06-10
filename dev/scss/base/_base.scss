@@ -3,44 +3,41 @@
 ============= */
 
 
-*{
+* {
     margin: 0em;
     padding: 0em;
 
 }
 
-ul{
+ul {
     padding: 0;
     margin: 0;
 
-    li{
+    li {
         list-style: none;
     }
 }
 
-.show-for-medium{
+.show-for-medium {
     display: none;
-    @include md{
+
+    @include md {
         display: block;
     }
 }
 
-.show-for-large{
+.show-for-large {
     display: none;
-    @include lg{
+
+    @include lg {
         display: block;
     }
 }
 
 
-    .divider{
-        img {
-            width: 70%;
-        }
+.divider {
+    img {
+        width: 70%;
     }
 
-
-
-
-
-
+}

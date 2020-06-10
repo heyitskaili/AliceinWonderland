@@ -343,7 +343,13 @@ ul {
 /* =============
     Typography
 ============= */
-h1, h2, h3, h4, h5, p, header {
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+header {
   font-family: 'Alice in Wonderland', sans-serif; }
 
 /* =============
@@ -442,9 +448,6 @@ textarea {
 /* =============
     Header
 ============= */
-/* =============
-    Header
-============= */
 header {
   background-color: #FFB61E;
   z-index: 1000;
@@ -500,12 +503,6 @@ header {
         header > div #nav-container2 {
           background-color: #FFB61E;
           display: block !important; } }
-/* =============
-    Footer
-============= */
-/* =============
-    Footer
-============= */
 /* =============
     Footer
 ============= */
@@ -620,7 +617,8 @@ footer {
 ============= */
 #section3 {
   background: #a08da1;
-  background: linear-gradient(0deg, #a08da1 0%, black 100%); }
+  background: linear-gradient(0deg, #a08da1 0%, black 100%);
+  text-align: center; }
   #section3 h2 {
     text-align: center;
     font-size: 45px;
@@ -757,6 +755,7 @@ footer {
 #section5 {
   background: #4e424e;
   background: linear-gradient(0deg, #4e424e 0%, #7c707d 100%);
+  text-align: center;
   padding-top: 20px; }
   #section5 h1 {
     text-align: center;
@@ -809,7 +808,7 @@ footer {
 #section8 {
   background-color: #000;
   text-align: center; }
-  #section8 #cat {
+  #section8 #cats {
     background-image: url("../img/section8/catt.png");
     background-position: 50% 85%;
     background-repeat: no-repeat;

@@ -2,28 +2,29 @@
     section 7
 ============= */
 
-#section7{
+#section7 {
     background-color: $black;
     background-image: url("../img/section7/fly.gif");
     height: 30vh;
 
-    @include md{
+    @include md {
         height: 75vh;
     }
+
     display: grid;
     grid-template-columns: auto 50% auto;
     grid-template-areas: ". video .";
 
-    >div{
-        grid-area:  video;
+    >div {
+        grid-area: video;
         display: flex;
         justify-content: center;
         align-items: center;
         // border: 1px solid red;
 
-        section{
+        section {
             width: 100%;
         }
-        
+
     }
 }

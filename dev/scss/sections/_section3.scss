@@ -7,7 +7,7 @@
 
     background: rgb(160, 141, 161);
     background: linear-gradient(0deg, rgba(160, 141, 161, 1) 0%, rgba(0, 0, 0, 1) 100%);
-
+    text-align: center;
 
     h2 {
         text-align: center;
@@ -18,24 +18,20 @@
     h1 {
         color: $white;
         font-size: 26px;
-        border: 5px $yellow ridge ;
-
+        border: 5px $yellow ridge;
         cursor: pointer;
-       
-        
     }
 
     #section3-img {
-        @include lg{
+        @include lg {
             img {
                 width: 80%;
             }
         }
-        
-         .alice {
+
+        .alice {
             grid-area: alice;
         }
-        
 
         #cat {
             grid-area: cat;
@@ -82,8 +78,6 @@
                 "rabbit ."
                 ".  mouse"
                 "hare .";
-
-
             text-align: center;
         }
 
