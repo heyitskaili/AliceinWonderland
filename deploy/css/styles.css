@@ -627,12 +627,17 @@ footer {
     color: #fff; }
   #section3 h1 {
     color: #fff;
-    font-size: 28px; }
+    font-size: 26px;
+    border: 5px #FFB61E ridge;
+    cursor: pointer; }
   #section3 #section3-img {
     background-image: url("../img/section3/cards/cardbottomleft.png"), url("../img/section3/cards/cardbottomright.png"), url("../img/section3/cards/cardtopleft.png"), url("../img/section3/cards/cardtopright.png");
     background-repeat: no-repeat;
     background-position: left bottom, 100% 60%, 0% 30%, right top;
     background-size: 60%, 50%, 50%, 45%; }
+    @media (min-width: 992px) {
+      #section3 #section3-img img {
+        width: 80%; } }
     #section3 #section3-img .alice {
       grid-area: alice; }
     #section3 #section3-img #cat {

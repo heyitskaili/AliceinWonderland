@@ -17,14 +17,25 @@
 
     h1 {
         color: $white;
-        font-size: 28px;
+        font-size: 26px;
+        border: 5px $yellow ridge ;
+
+        cursor: pointer;
+       
+        
     }
 
     #section3-img {
-
-        .alice {
+        @include lg{
+            img {
+                width: 80%;
+            }
+        }
+        
+         .alice {
             grid-area: alice;
         }
+        
 
         #cat {
             grid-area: cat;
