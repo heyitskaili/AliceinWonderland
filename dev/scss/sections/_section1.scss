@@ -2,11 +2,16 @@
     section 1
 ============= */
 
-#section1 {
+#section1{
 
+    overflow: hidden;
+    
+    >div{
     background-image: url('../img/section1/hero.jpg');
     background-position: 50% 90%;
-    height: 800px;
+    height: 1000px;
+    background-size: cover;
+    }
 
     @include md {
         background-position: 20% 50%;
@@ -15,8 +20,9 @@
 
     @include lg {
         background-position: center;
-        height: 950px;
+        height: 800px;
     }
+
 
 
 }

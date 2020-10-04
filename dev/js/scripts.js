@@ -1,4 +1,6 @@
+import{gsap} from"gsap";
 
+console.log(gsap);
 var $burger = $("#burger-icon");
 var $nav = $('nav[data-nav]');
 var $navA = $('nav[data-nav] a');
@@ -20,3 +22,7 @@ function mouseClick(){
 $burger.on( "click", mouseClick);
 // close the mobile menu when menu link is clicked
 $navA.on( "click", mouseClick);
+
+
+import {section1Animation} from "./section1.js"
+section1Animation();
