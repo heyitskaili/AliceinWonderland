@@ -1,6 +1,7 @@
-import{gsap} from"gsap";
 
-console.log(gsap);
+import {section1Animation} from "./sections/section1.js"
+
+
 var $burger = $("#burger-icon");
 var $nav = $('nav[data-nav]');
 var $navA = $('nav[data-nav] a');
@@ -24,5 +25,4 @@ $burger.on( "click", mouseClick);
 $navA.on( "click", mouseClick);
 
 
-import {section1Animation} from "./section1.js"
 section1Animation();
