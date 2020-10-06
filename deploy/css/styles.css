@@ -644,7 +644,7 @@ footer {
     @media (min-width: 992px) {
       #section3 #section3-img img {
         width: 65%; } }
-    #section3 #section3-img .alice {
+    #section3 #section3-img #alice {
       grid-area: alice; }
     #section3 #section3-img #cat {
       grid-area: cat; }

@@ -1,28 +1,29 @@
 
 import {section1Animation} from "./sections/section1.js"
+import {section3Animation} from "./sections/section3.js"
 
+// var $burger = $("#burger-icon");
+// var $nav = $('nav[data-nav]');
+// var $navA = $('nav[data-nav] a');
+// var isVisible = false;
 
-var $burger = $("#burger-icon");
-var $nav = $('nav[data-nav]');
-var $navA = $('nav[data-nav] a');
-var isVisible = false;
+// function mouseClick(){
 
-function mouseClick(){
+//     console.log("click");
+//     if(isVisible === false){
+//         $nav.show();
+//         isVisible = true;
+//     }
+//     else{
+//         $nav.hide();
+//         isVisible = false;
+//     }
+// }
 
-    console.log("click");
-    if(isVisible === false){
-        $nav.show();
-        isVisible = true;
-    }
-    else{
-        $nav.hide();
-        isVisible = false;
-    }
-}
-
-$burger.on( "click", mouseClick);
-// close the mobile menu when menu link is clicked
-$navA.on( "click", mouseClick);
+// $burger.on( "click", mouseClick);
+// // close the mobile menu when menu link is clicked
+// $navA.on( "click", mouseClick);
 
 
 section1Animation();
+section3Animation();
