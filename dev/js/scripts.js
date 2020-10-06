@@ -1,6 +1,7 @@
 
 import {section1Animation} from "./sections/section1.js"
 import {section3Animation} from "./sections/section3.js"
+import {section4Animation} from "./sections/section4.js"
 
 // var $burger = $("#burger-icon");
 // var $nav = $('nav[data-nav]');
@@ -27,3 +28,4 @@ import {section3Animation} from "./sections/section3.js"
 
 section1Animation();
 section3Animation();
+section4Animation();
