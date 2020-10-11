@@ -7,8 +7,8 @@ gsap.registerPlugin(ScrollTrigger);
 
 const section3TL = gsap.timeline();
 section3TL.from("#madhatter, #alice, #bug",{durtion:2,alpha:0,x: 70})
-            .from("#red, #white, #cat",{durtion:2,alpha:0,x:-70, delay:0.5})
-            .from("#hare, #mouse, #rabbit",{durtion:2,alpha:0,x:70, delay:1});
+            .from("#red, #white, #cat",{durtion:1,alpha:0,x:-70})
+            .from("#hare, #mouse, #rabbit",{durtion:1,alpha:0,x:70});
 
 export function section3Animation(){
 
