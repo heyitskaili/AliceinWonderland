@@ -12,7 +12,6 @@ section5TL.from(".section5p",{durtion:0.1,alpha:0, y:20})
 export function section5Animation(){
 
     ScrollTrigger.create({
-        markers: true,
         animation: section5TL,
         toggleActions:"start",
         trigger: "#section5",

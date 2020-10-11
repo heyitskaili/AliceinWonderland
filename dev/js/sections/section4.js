@@ -13,7 +13,6 @@ section4TL.from("#tea2",{durtion:2,alpha:0,y: 70})
 export function section4Animation(){
 
     ScrollTrigger.create({
-        markers: true,
         animation: section4TL,
         toggleActions:"restart restart",
         trigger: "#section4",

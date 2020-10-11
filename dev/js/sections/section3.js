@@ -13,7 +13,6 @@ section3TL.from("#madhatter, #alice, #bug",{durtion:2,alpha:0,x: 70})
 export function section3Animation(){
 
     ScrollTrigger.create({
-        markers: true,
         animation: section3TL,
         toggleActions:"play none none stop",
         trigger: "#section3",
