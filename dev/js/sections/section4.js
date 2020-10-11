@@ -6,9 +6,9 @@ gsap.registerPlugin(ScrollTrigger);
 
 
 const section4TL = gsap.timeline();
-section4TL.from("#tea2",{durtion:2,alpha:0,y: 70, rotation:80})
-            .from("#tea1",{durtion:2,alpha:0,x:-70, delay:0.3})
-            .from("#tea3",{durtion:2,alpha:0,x:70, delay:0.3});
+section4TL.from("#tea2",{durtion:2,alpha:0,y: 70})
+            .from("#tea1",{durtion:2,alpha:0,x:-70})
+            .from("#tea3",{durtion:2,alpha:0,x:70});
 
 export function section4Animation(){
 

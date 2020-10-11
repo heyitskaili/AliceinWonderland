@@ -770,34 +770,27 @@ footer {
     text-align: center;
     font-size: 45px;
     color: #fff; }
-  #section5 div.container4 {
-    height: 20em;
-    position: relative; }
-  #section5 div.container4 p {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: 5%;
-    transform: translate(-50%, -50%); }
   #section5 p {
     font-size: 16px;
+    margin-top: 20px;
+    margin-left: 27%;
+    margin-right: 27%;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 25px; }
   #section5 #section5-img {
-    padding-bottom: 180%;
-    background-image: url("../img/section5/path3.png"), url("../img/section5/quote1.png"), url("../img/section5/cats.png");
+    padding-bottom: 30%;
+    background-image: url("../img/section5/quote1.png"), url("../img/section5/cats.png");
     background-repeat: no-repeat;
-    background-position: 40% 20%, bottom, 10% 81%;
-    background-size: 200%, 100%, 35%; }
+    background-position: bottom, 5% 70%;
+    background-size: 100%, 30%; }
     @media (min-width: 768px) {
       #section5 #section5-img {
-        padding-bottom: 130%;
-        background-image: url("../img/section5/path1.png"), url("../img/section5/quote1.png"), url("../img/section5/cats.png"), url("../img/section5/whiterabbit.png"), url("../img/section5/redqueens.png"), url("../img/section5/alices.png");
+        padding-bottom: 45%;
+        background-image: url("../img/section5/quote1.png"), url("../img/section5/cats.png"), url("../img/section5/whiterabbit.png"), url("../img/section5/redqueens.png"), url("../img/section5/alices.png");
         background-repeat: no-repeat;
-        background-position: 50% 20%, bottom, 3% 80%, 65% 16%, 23% 42%, 88% 65%;
-        background-size: 110%, 100%, 25%, 20%, 15%, 20%; } }
+        background-position: bottom, 10% 70%, 94% 16%, 7% 16%, 90% 60%;
+        background-size: 100%, 20%, 20%, 18%, 20%; } }
     @media (min-width: 992px) {
       #section5 #section5-img {
         padding-bottom: 20%;

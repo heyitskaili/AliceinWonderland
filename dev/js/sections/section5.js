@@ -5,26 +5,20 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 
-const section8TL = gsap.timeline();
-section8TL.from("#container",{durtion:0.2,alpha:0, y:35})
+const section5TL = gsap.timeline();
+section5TL.from(".section5p",{durtion:0.1,alpha:0, y:20})
             
 
-export function section8Animation(){
+export function section5Animation(){
 
     ScrollTrigger.create({
         markers: true,
-        animation: section8TL,
+        animation: section5TL,
         toggleActions:"start",
-        trigger: "#section8",
-        scrub:true,
+        trigger: "#section5",
+        scrub:"false",
         start:"top 50%",
         end:"bottom 50%"
     
     });
 }
-
-
-
-
-
-
